@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+    <style>
+        .body{
+            margin: 0px;
+            padding: 0px; 
+         }
+         .page-heading{
+            text-align:center ;
+            font-size: 60px;
+        }
+
+        .click-here{
+            position: fixed;
+            right: 20px;
+            bottom: 20px;
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            background-color:wheat ;
+            padding: 10px;
+            border: 2px solid #ff751a ;
+            cursor: pointer;
+
+        }
+        .header-content{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+
+        .celebration{
+            width: 500px;
+           
+        }
+        .content{
+            width: 500px;
+            font-size: 20px;
+        }
+        .navbar{
+            background-color: black;
+            display: flex;
+            align-items: center;
+            padding: 5px 40px;
+            color:white;
+        }
+        .emoji{
+            font-size: 30px;
+        }
+        .pet-gallary{
+            margin-left: 150px;
+            display: flex;
+            align-items:center;
+        }
+        .pet-img{
+            margin-right: 30px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+        .pet-img:hover{
+            color: #ff751a;
+        }
+        .pet-icon{
+            height: 25px;
+            width: 25px;
+            margin-right: 5px;
+        }
+         
+         /* mobile device */
+         @media screen and (max-width:500px){
+        .page-heading{
+            font-size: 35px;
+        }
+        .click here{
+            height:40px ;
+            width:40px ;
+        }
+        .celebration{
+            width: 350px;
+        }
+        .content{
+            font-size: 20px;
+        }
+        .secondary-content{
+            display: none;
+        }
+        .emoji{
+            font-size: 18px;
+        }
+        .pet-text{
+            display: none;
+        }
+        .pet{
+            margin-left: 20px;
+        }
+        .pet-img{
+            margin-right:13px;
+        }
+        .pet-icon{
+            height: 30px;
+            width: 30px;
+            margin-right: 5px;
+        }
+    }
+         /* tablet device */
+
+         @media screen and (min-width:501px) and (max-width:769px) {
+        .page-heading{
+            font-size: 45px;
+        }
+        .know-more{
+            height: 60px;
+            width:60px ;
+        }
+        
+    }
+
+
+
+         /* desktop device */
+         @media screen and (min-width:769px){
+
+}
+    </style>
+    
+    </head>
+    <body>
+<div class="navbar">
+ 
+   <span class="emoji">Pet Store</span>
+   <div class="">
+    <span class="pet-item">
+      <img src="rabbit.png" class="pet-icon" alt="rabbit">
+      <span class="pet-text">
+       Rabbit
+        </span>
+    </span>
+    <span class="pet-item">
+        <img src="dog.png" class="pet-icon" alt="dog">
+        <span class="pet-text">
+Dog
+    </span>
+    </span>
+    <span class="pet-item">
+        <img src="cat.png" class="pet-icon" alt="cat">
+        <span class="pet-text">
+   Cat
+</span>
+</span>
+    <span class="pet-item">
+        <img src="chicken.png" class="pet-icon" alt="chicken">
+        <span class="pet-text">
+Chicken
+    </span>
+    </span>
+    <span class="pet-item">
+        <img src="cow.png" class="pet-icon" alt="cow">
+        <span class="pet-text">
+     Cow
+    </span>
+    </span>
+    <span class="pet-item">
+        <img src="goat.png" class="pet-icon" alt="goat">
+        <span class="pet-text">
+       Goat
+    </span>
+    </span>
+</div>
+</div>
+
+
+
+<h1 class="page-heading">
+    Pet Store 🐾🐾
+</h1>
+
+<div class="header-content">
+    <img src="pet-store.png" class="celebration" alt="pet-store">
+  <div class="content">
+    <p>
+        pet shop or pet store is an essential services retailer which sells animals and pet care resources to the public. A variety of animal supplies and pet accessories are also sold in pet shops. The products sold include: food, treats, toys, collars, leashes, cat litter, cages and aquariums. 
+     </p>
+    <p class="secndary-content">
+        
+        Pet shops may also offer both hygienic care (such as pet cleaning) and aesthetic services (such as cat and dog grooming).[1] Some pet stores also provide tips on training and behaviour, as well as advice on pet nutrition. Some pet stores provide engraving services for pet tags, which have the owner's contact information in case the pet gets lost.
+
+    </p>
+</div>
+</div>
+
+<a href="https://en.wikipedia.org/wiki/Pet_store" target="_blank">
+<img src="click-here.png" class="click-here" alt="Click-here ">
+</a>
+</body>
+</html>
+</div>
+    </body>
+</html>
