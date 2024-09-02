@@ -5,11 +5,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media query</title>
     <style>
-        .body{
+       body{
             margin: 0px;
-            padding: 0px; 
-         }
-         .page-heading{
+            padding: 0px;
+        }
+        .page-heading{
             text-align:center ;
             font-size: 60px;
         }
@@ -37,7 +37,7 @@
 
         .celebration{
             width: 450px;
-           height: 400px;
+            height: 400px;
         }
         .content{
             width: 500px;
@@ -53,12 +53,12 @@
         .emoji{
             font-size: 30px;
         }
-        .pet-gallary{
+        .pet{
             margin-left: 150px;
             display: flex;
             align-items:center;
         }
-        .pet-img{
+        .pet-gallary{
             margin-right: 30px;
             cursor: pointer;
             display: flex;
@@ -72,9 +72,9 @@
             width: 25px;
             margin-right: 5px;
         }
-         
-         /* mobile device */
-         @media screen and (max-width:500px){
+ 
+   /* Mobile device */
+    @media screen and (max-width:500px){
         .page-heading{
             font-size: 35px;
         }
@@ -100,7 +100,7 @@
         .pet{
             margin-left: 20px;
         }
-        .pet-img{
+        .pet-item{
             margin-right:13px;
         }
         .pet-icon{
@@ -109,9 +109,9 @@
             margin-right: 5px;
         }
     }
-         /* tablet device */
 
-         @media screen and (min-width:501px) and (max-width:769px) {
+    /* Table device */
+    @media screen and (min-width:501px) and (max-width:769px) {
         .page-heading{
             font-size: 45px;
         }
@@ -122,82 +122,80 @@
         
     }
 
+    /* Desktop Device */
+    @media screen and (min-width:769px){
 
-
-         /* desktop device */
-         @media screen and (min-width:769px){
-
-}
+    }
+          
     </style>
     
     </head>
     <body>
-<div class="navbar">
-   <span class="emoji">Pet Store 🐇🐕‍🦺🐈‍⬛🐄🦙</span>
-   <div class="pet-gallary">
-    <span class="pet-item">
-      <img src="rabbit.png" class="pet-icon" alt="rabbit">
-      <span class="pet-text">
-       Rabbit
-        </span>
-    </span>
-    <span class="pet-item">
-        <img src="dog.png" class="pet-icon" alt="dog">
-        <span class="pet-text">
-Dog
-        
-    </span>
-    </span>
-    <span class="pet-item">
-        <img src="cat.png" class="pet-icon" alt="cat">
-        <span class="pet-text">
-   Cat
-</span>
-</span>
-    <span class="pet-item">
-        <img src="chicken.png" class="pet-icon" alt="chicken">
-        <span class="pet-text">
-Chicken
-    </span>
-    </span>
-    <span class="pet-item">
-        <img src="fish.png" class="pet-icon" alt="cow">
-        <span class="pet-text">
-     Cow
-    </span>
-    </span>
-    <span class="pet-item">
-        <img src="bird.png" class="pet-icon" alt="bird">
-        <span class="pet-text">
-       Goat
-    </span>
-    </span>
-</div>
-</div>
-
-
-
-<h1 class="page-heading">
-    Pet Store 🐾🐾
-</h1>
-
-<div class="header-content">
-    <img src="pet-store.png" class="celebration" alt="pet-store">
-  <div class="content">
-    <p>
-        pet shop or pet store is an essential services retailer which sells animals and pet care resources to the public. A variety of animal supplies and pet accessories are also sold in pet shops. The products sold include: food, treats, toys, collars, leashes, cat litter, cages and aquariums. 
-     </p>
-    <p class="secndary-content">
-        
-        Pet shops may also offer both hygienic care (such as pet cleaning) and aesthetic services (such as cat and dog grooming).[1] Some pet stores also provide tips on training and behaviour, as well as advice on pet nutrition. Some pet stores provide engraving services for pet tags, which have the owner's contact information in case the pet gets lost.
-
-    </p>
-</div>
-</div>
-
-<a href="https://en.wikipedia.org/wiki/Pet_store" target="_blank">
-<img src="click-here.png" class="click-here" alt="Click-here ">
-</a>
-</div>
-    </body>
-</html>
+        <div class="navbar">
+            <span class="emoji">📚 Book</span>
+           
+           <div class="pet">
+               <span class="pet-gallary">
+                 <img src="rabbit.png" class="pet-icon" alt="rabbit">
+                 <span class="pet-text">
+                   History
+                   </span>
+               </span>
+               <span class="pet-gallary">
+                   <img src="dog.png" class="pet-icon" alt="dog">
+                   <span class="pet-text">
+                Dog
+               </span>
+               </span>
+               <span class="pet-gallary">
+                   <img src="cat.png" class="pet-icon" alt="cat">
+                   <span class="pet-text">
+               Cat
+           </span>
+           </span>
+               <span class="pet-gallary">
+                   <img src="bird.png" class="pet-icon" alt="bird">
+                   <span class="pet-text">
+                   Sparrow
+               </span>
+               </span>
+               <span class="pet-gallary">
+                   <img src="chicken.png" class="pet-icon" alt="chicken">
+                   <span class="pet-text">
+                   Chicken
+               </span>
+               </span>
+               <span class="pet-gallary">
+                   <img src="fish.png" class="pet-icon" alt="fish">
+                   <span class="pet-text">
+                   Fish
+               </span>
+               </span>
+           </div>
+           </div>
+       
+       
+       
+           <h1 class="page-heading">
+              Pet Store 🐕‍🦺🦈🐦
+           </h1>
+       
+           <div class="header-content">
+               <img src="pet-store.png" class="celebration" alt="pet-store">
+             <div class="content">
+               <p>
+                   A book is a medium for recording information in the form of writing or images. Modern books are typically in codex format, composed of many pages that are bound together and protected by a cover.[1] They were preceded by several older formats, such as the scroll and the tablet. The book publishing process is the series of steps involved in their creation and dissemination.
+                </p>
+               <p class="secndary-content">
+                   The history of books became an acknowledged academic discipline in the 1980s. Contributions to the field have come from textual scholarship, codicology, bibliography, philology, palaeography, art history, social history and cultural history. Its key purpose is to demonstrate that the book as an object, not just the text contained within it, is a conduit of interaction between readers and words. Analysis of each component part of the book reveals its purpose.
+       
+       
+               </p>
+           </div>
+       </div>
+       
+           <a href="https://en.wikipedia.org/wiki/Pet_store" target="_blank">
+          <img src="click-here.png" class="click-here" alt="Click here ">
+          </a>
+       </body>
+       </html>
