@@ -1,12 +1,12 @@
 # Pet Store 🐇🐦🐕‍🦺🐈‍⬛
 ![pet store](https://github.com/user-attachments/assets/fcc6d73b-9e25-4e68-a2e9-2d766788fe2f)
-#unorder list=
--list item Rabbit
--list item Dog
--list item Cat
--list item Sparrow
--list item Chicken
--list item Fish
+#order list=
+1. Rabbit🐇
+2. Dog 🐕‍🦺
+3. Cat 🐈‍⬛
+4. Sparrow 🐦
+5.Chicken 🐔
+6. Fish 🦈
 
 ##A book is a medium for recording information in the form of writing or images. Modern books are typically in codex format, composed of many pages that are bound together and protected by a cover.[1] They were preceded by several older formats, such as the scroll and the tablet. The book publishing process is the series of steps involved in their creation and dissemination.
 
